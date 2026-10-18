@@ -20,5 +20,10 @@ namespace TestableApp
         {
             return number > 0;
         }
+
+        public int Multiply(int a, int b)
+        {
+            return a * b;
+        }
     }
 }
